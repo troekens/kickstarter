@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +12,7 @@
     "fs-extra": "^7.0.1",
     "ganache-cli": "^6.2.5",
     "mocha": "^5.2.0",
-    "solc": "^0.5.2",
+    "solc": "^0.4.25",
     "web3": "^1.0.0-beta.35"
   }
 }
